@@ -2,7 +2,7 @@
 
 ```
 git clone https://github.com/santumahapatra/swagger-express-demo.git
-cd swagger-ui-express
+cd swagger-express-demo
 npm install
 npm app.js
 ```
