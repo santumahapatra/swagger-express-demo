@@ -1,0 +1,29 @@
+swagger: "2.0"
+info:
+  description: Something about the API
+  version: "1.0.0"
+  title: My Dabba API
+basePath: "/api/v1"
+schemes:
+  - "https"
+paths:
+  /dabba-route:
+    get:
+      summary: "Get Dabba Information"
+      operationId: "dabba"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "success"
+    post:
+      summary: "Post Dabba Information"
+      operationId: "dabba post"
+      parameters:
+        - in: path
+          name: userId
+      produces:
+      - "application/json"
+      responses:
+        201:
+          description: "created"
